@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+ * Escreva uma função que leia um número não determinado de valores 
+ * inteiros positivos e retorne a média entre eles.
+*/
 func soma(nums ...int) float64 {
     total := 0.0
     length := float64(len(nums))
